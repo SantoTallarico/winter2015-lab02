@@ -3,15 +3,18 @@
     <head>
         <title>{pagetitle}</title>
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
-        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/lightbox.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="public/css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="public/css/text.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="public/css/style.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="public/css/lightbox.css" />
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                {menubar}
+                <span class="myhead">Simple Image Gallery</span>
+                <span class="mynav">
+                    {menubar}
+                </span>
             </div>
             <div class="alone"></div>
             <div id="content">
