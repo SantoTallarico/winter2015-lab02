@@ -14,10 +14,11 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Gallery extends CI_Controller  {
+class Gallery extends Application  {
     //put your code here
     public function index()
 	{
-		$this->load->view('gallery');
+            $this->data['pagebody'] = 'Gallery';
+                $this->render();
 	}
 }
