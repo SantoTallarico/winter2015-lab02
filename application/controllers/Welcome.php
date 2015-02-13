@@ -1,6 +1,6 @@
 <?php
 /**
- * TEST COMMITTING
+ * TEST COMMITTING 2
  * 
  * CodeIgniter
  *
